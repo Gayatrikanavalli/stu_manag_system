@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f6fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px 40px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #2f3640;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-tobutton {
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #40739e;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #273c75;
+}
+
+padding: 20px;
+}
+
+table th, table td {
+  padding: 12px 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #40739e;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #dcdde1;
+}
+
+.actions button {
+  padding: 5px 10px;
+  margin: 0 3px;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .container { padding: 20px; }
+  table, table th, table td { font-size: 14px; }
+  input { width: 100%; }
+}
