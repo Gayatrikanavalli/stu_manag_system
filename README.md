@@ -13,6 +13,8 @@ A simple web-based Student Management System developed to manage student records
 - HTML
 - CSS
 - JavaScript
+- React
+- MongoDB
 
 ## 📂 Project Structure
 ```
